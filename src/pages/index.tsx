@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://www.canva.com/design/DAFlUwDHco8/Z6oKBxHURLpyLUgoIABDeg/edit?utm_content=DAFlUwDHco8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                     className=" ml-8 rounded-md bg-gradient-to-r from-cyan-400 to-teal-400 px-4 py-2 font-medium text-white dark:text-gray-900"
                   >
                     Resume
@@ -58,9 +58,12 @@ const Home: NextPage = () => {
               </p>
               <div className="py-5"></div>
               <div className=" flex justify-center gap-16 py-3 text-5xl text-gray-600 dark:text-slate-500">
-                <AiFillTwitterCircle />
-                <AiFillLinkedin />
-                <AiFillYoutube />
+                <a href="https://twitter.com/inspirezuza">
+                  <AiFillTwitterCircle />
+                </a>
+                <a href="https://www.youtube.com/@inspirationzuza">
+                  <AiFillYoutube />
+                </a>
               </div>
               <div className=" relavtive mx-auto mt-20 h-80 w-80 overflow-hidden rounded-full bg-teal-300 md:h-96 md:w-96">
                 <Image src={kuy as StaticImageData} alt="Inspirezuza icon" />
